@@ -17,6 +17,7 @@ void PrintNewArr(string[] array, int length){
 Write("Введите размер массива");
 int length=int.Parse(Console.ReadLine()!);
 Write("Введите массив");
+Console.WriteLine();
 string[] array = new string[length];
 InputArr(array, length);
 PrintNewArr(array, length);
