@@ -7,9 +7,7 @@ void InputArr(string[] array, int length){
     }
 }
 void PrintNewArr(string[] array, int length){
-    for(int i = 0; i < length; i++){
-        Console.WriteLine(string.Join(",", array.Where(array => array.Length<=3)));
-    }
+    Console.WriteLine(string.Join(",", array.Where(array => array.Length<=3)));
 }
 Write("Введите размер массива");
 int length=int.Parse(Console.ReadLine()!);
