@@ -9,8 +9,7 @@ void InputArr(string[] array, int length){
 void PrintNewArr(string[] array, int length){
     for(int i = 0; i < length; i++){
         if(array[i].Length<=3){
-            Console.WriteLine(array[i]);
-            Console.WriteLine();
+            Console.WriteLine(array[i]+"");
         }
     }
 }
